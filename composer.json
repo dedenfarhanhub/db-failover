@@ -3,6 +3,13 @@
   "description": "Laravel DB Failover + Telegram Notification + Circuit Breaker + Dynamic DB Switching",
   "type": "library",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Deden Farhan",
+      "email": "farhanindo21@gmail.com"
+    }
+  ],
+  "keywords": ["laravel", "database", "failover", "db failover", "auto switch", "circuit breaker"],
   "autoload": {
     "psr-4": {
       "SultanDB\\": "src/"
@@ -25,5 +32,8 @@
     "phpunit/phpunit": "^10.0"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
 }

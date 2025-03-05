@@ -4,7 +4,7 @@ namespace SultanDB;
 
 use Illuminate\Support\ServiceProvider;
 
-class SultanDBServiceProvider
+class SultanDBServiceProvider extends ServiceProvider
 {
     public function boot()
     {
